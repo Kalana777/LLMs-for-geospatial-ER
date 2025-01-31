@@ -1,7 +1,5 @@
-logs
 results_logs
 newlogs
 .venv
 .idea
-experiments
-datasets
+
