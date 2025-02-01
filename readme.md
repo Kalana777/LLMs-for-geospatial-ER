@@ -92,15 +92,15 @@ Place 2: 'COL name VAL Hotel Ovolo COL type VAL hotel COL address VAL 19 Little 
 attribute-value-distance (geospatial ER)
 
 ```
-Two place descriptions and the geographic distance between them is provided. Do the two place descriptions refer to the same real-world place? Answer with 'Yes' if they do and 'No' if they do not.
+Two place descriptions and the geographic distance between them are provided. Do the two place descriptions refer to the same real-world place? Answer with 'Yes' if they do and 'No' if they do not.
 Place 1: 'COL name VAL SKYCITY Hotel COL type VAL hotel COL latitude VAL -36.84851 COL longitude VAL 174.76197'
 Place 2: 'COL name VAL SkyCity Grand Hotel COL type VAL hotel COL latitude VAL -36.84939821850368 COL longitude VAL 174.76257662778417'
-Distance: 0.11km: 
+Distance: 0.11km
 ```
 
 attribute-value-distance (geospatial relation prediction)
 ```
-Two place descriptions and the geographic distance between them is provided. Answer with 'same_as' if the first place is the same as the second place. 
+Two place descriptions and the geographic distance between them are provided. Answer with 'same_as' if the first place is the same as the second place. 
 Answer with 'part_of' if the first place is a part of the second place and is located inside the second place. 
 Answer with 'serves' if the first place provides a service to the second place in terms of human mobility, assistance, etc. 
 Answer with 'unknown' if the two places show none of these relations.
